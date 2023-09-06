@@ -1,4 +1,4 @@
-// not sure how i will complete this assignment
+// js statements
 let x = 9 + 1
 let y = 39 + 1
 let z = 40 - 1
@@ -6,6 +6,7 @@ let message = "You have received this message because you have been chosen to op
 
 console.log(message)
 
+// js function that links statements to html button
 function fun() {
 
 
