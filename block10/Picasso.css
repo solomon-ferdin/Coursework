@@ -1,0 +1,126 @@
+* {
+  display: flex;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+/* .circle {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: absolute;
+  z-index: ;
+} */
+
+/* .square {
+    width:200px;
+    height: 200px;
+    background-color: darkorchid;
+    position: absolute; 
+} */
+
+/* #fish {
+    width: 400px;
+    height: 100px;
+    margin-left: 600px;
+    position: absolute; top: 10px; left: 10px;
+    z-index: 300;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+/* .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} */
+
+.grid-item1 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 200;
+}
+.grid-item2 {
+  width:200px;
+  height: 200px;
+  background-color: darkorchid;
+  position: absolute; left: 175px;
+  z-index: 100;
+}
+
+.grid-item3 {
+  width: 0px;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #555;
+  position: absolute; left: 175px;
+  z-index: 300;
+}
+
+form.form-example {
+  display: table;
+  margin: 700px 600px 0px 0px;
+  position: absolute;
+  z-index: 75;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+  height: 270px;
+  margin: 300px;
+  position: absolute;
+  z-index: 50;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  height: 250px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#reserve {
+  position: absolute;
+  top: 300px;
+}
+
+.intro {
+  position: absolute;
+  z-index: 350;
+  margin: 100px 0px 0px 400px;
+}
