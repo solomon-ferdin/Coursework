@@ -37,6 +37,7 @@ video {
   grid-template-columns: auto auto auto;
   /* background-color: #2196F3; */
   padding: 10px;
+  display: flex;
 }
 
 /* .grid-item {
@@ -54,6 +55,7 @@ video {
   border-radius: 50%;
   position: absolute;
   z-index: 200;
+  display: flex;
 }
 .grid-item2 {
   width:200px;
@@ -61,6 +63,7 @@ video {
   background-color: darkorchid;
   position: absolute; left: 175px;
   z-index: 100;
+  display: flex;
 }
 
 .grid-item3 {
@@ -71,6 +74,7 @@ video {
   border-bottom: 50px solid #555;
   position: absolute; left: 175px;
   z-index: 300;
+  display: flex;
 }
 
 form.form-example {
@@ -99,6 +103,7 @@ label {
   background-color: #f1f1f1;
   height: 270px;
   margin: 300px;
+  margin-right: 200px;
   position: absolute;
   z-index: 50;
 }
@@ -112,6 +117,7 @@ label {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  display: flex;
 }
 
 #reserve {
@@ -123,4 +129,9 @@ label {
   position: absolute;
   z-index: 350;
   margin: 100px 0px 0px 400px;
+  display: flex;
+}
+
+.header2 {
+  display: flex;
 }
